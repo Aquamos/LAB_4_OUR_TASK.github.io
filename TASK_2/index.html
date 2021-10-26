@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>LAB_4</title>
+</head>
+<body>
+    <svg style="display: none;">
+        <symbol id="romb"  viewBox="0 0 94.658 94.658">
+            <g>
+                <rect x="13.862" y="13.863" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -19.6043 47.3289)" style="fill:#231F20;" width="66.935" height="66.932"/>
+            </g>
+        </symbol>
+    </svg>
+
+
+    <div class="hypertext">
+        <a href="javascript:newimage();void(0);">
+        <img class="hypertext__img" src="img/i1.png" name=i1> </a>
+    </div>
+
+    <div class="hanger">
+        <div class="dropdownList" id="ddl">
+            <svg class="dropdownList__icon">
+                <use xlink:href="#romb"></use>
+            </svg>
+            <span class="dropdownList__title">Wargaming`s games</span>
+            <ul class="dropdownList__list">
+                <li>World Of Tanks</li>
+                <li>World of Warplanes</li>
+                <li>World Of Warships</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
